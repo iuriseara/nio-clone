@@ -1,0 +1,33 @@
+@import '../../scss/variables.scss';
+
+
+@media (max-width: $small-devices) {
+    .hero-1 {
+        background-image: url(../../img/nio-day-2021-countdown-mobile.png);
+        background-size: cover;
+        background-position: center;
+        // background-attachment: fixed;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .hero-logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+@media (min-width: $large-devices) {
+
+    .hero-1 {
+        background-image: url(../../img/nio-day-2021-countdown-desktop.png);
+        background-position: center;
+        background-attachment: fixed;
+        width: 100vw;
+        height: 100vh;
+    }
+}
