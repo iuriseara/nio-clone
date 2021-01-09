@@ -12,10 +12,91 @@
     }
 
     .hero-logo {
+        margin-top: 15%;
         display: flex;
+        justify-self: center;
+        align-self: center;
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .hero-2 {
+        background-image: url(../../img/ec6-background-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .hero-1-text, .hero-1-date, .hero-1-location {
+        color: white;
+        text-align: center;
+    }
+
+    .hero1-container {
+        display: grid;
+        width: 100%;
+        height: 100%;
         justify-content: center;
     }
+
+    .hero-1-date {
+        letter-spacing: 4px;
+    }
+
+    .hero-1-location {
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .hero-1-text-wrapper {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .hero-1-text {
+        letter-spacing: 5px;
+    }
+
+    .live-stream-btn {
+        margin-top: 50px;
+        background:none;
+        border: 1px solid white;
+        padding: 10px 30px 10px 30px; 
+        font-size:1em;
+        color:white;  
+    }
+
+    .live-stream-btn:hover {
+        background-color: white;
+        color: black;
+    }
+
+
+    @media (max-width: 320px) {
+        
+        .live-stream-btn {
+            margin-top: 50px;
+            background:none;
+            border: 1px solid white;
+            padding: 10px 20px 10px 20px; 
+            font-size:1em;
+            color:white;  
+            display: flex;
+            justify-self: center;
+        } 
+
+        .hero-1-date{
+            letter-spacing: 3px;
+        }
+    }
+    
 }
+
+
+
 
 
 

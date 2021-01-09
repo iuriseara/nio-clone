@@ -72,6 +72,13 @@
         display: none;
     }
 
+    @media (max-width: 375px) {
+       
+        .mobile-menu-icon {
+            left: 87%;
+        }
+    }
+
 }
 
 

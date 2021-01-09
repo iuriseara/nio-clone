@@ -10,13 +10,21 @@ class home extends Component {
             <div>
                 <Navbar />
                 <section className="hero-1">
-    
-                    {/* <img className="hero-1-img" src={hero}/> */}
-                    <img className="hero-logo" src={WhiteLogo} width="100px" height="100px"/>
+                    <div className='hero1-container'>
+                        <img className="hero-logo" src={WhiteLogo}/>
+                        <p className='hero-1-text'>READY FOR TOMORROW</p>
+                       
+                       <div className='hero-1-text-wrapper'>
+                            <p className='hero-1-date'>2021.01.09 18:30 GMT + 8</p>
+                            <p className='hero-1-location'>Chengdu China</p>
+                            <button className='live-stream-btn'>Watch Replay</button>
+                       </div>
+
+                    </div>
                 </section>
 
                 <section className="hero-2">
-                
+
                 </section>
             </div>
         );
