@@ -2,6 +2,9 @@
 
 
 @media (max-width: $small-devices) {
+
+// ----------------------------HERO 2--------------------------------------
+
     .hero-1 {
         background-image: url(../../img/nio-day-2021-countdown-mobile.png);
         background-size: cover;
@@ -92,7 +95,50 @@
             letter-spacing: 3px;
         }
     }
+
+
+    // ----------------------------HERO 2--------------------------------
     
+
+    .ec6-logo {
+        display: flex;
+        justify-self: center;
+        width: 226px;
+        height: 67px;
+        margin-top: 33vh;
+    }
+
+    .hero-2 {
+        display: grid;
+        justify-content: center;
+    }
+
+
+    .learn-more-btn {
+        display: grid;
+        justify-content: center;
+        margin-top: 90%;
+        background:none;
+        border: 1px solid white;
+        padding: 15px 30px 15px 30px; 
+        font-size:1em;
+        height: 50px;
+        width: 60vw;
+        color:white;  
+    }
+
+    @media (max-width: 320px) {
+        .learn-more-btn {
+            text-align: center;
+            vertical-align: middle;
+            margin-bottom: 10%;
+            display: grid;
+            height: 50px;
+            width: 80vw;
+            color:white;  
+        }
+    }
+
 }
 
 

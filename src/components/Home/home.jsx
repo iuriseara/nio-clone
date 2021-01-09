@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../Navbar/navbar';
 import hero from '../../img/nio-day-2021-countdown-desktop.png'
 import WhiteLogo from '../../img/logo-white.svg';
+import EC6 from '../../img/EC6-Logo-2020.png'
 import './home.scss'
 
 class home extends Component {
@@ -24,7 +25,8 @@ class home extends Component {
                 </section>
 
                 <section className="hero-2">
-
+                    <img className="ec6-logo" src={EC6}/>
+                    <button className='learn-more-btn'>Learn More</button>
                 </section>
             </div>
         );
