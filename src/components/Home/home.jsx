@@ -18,7 +18,7 @@ import './home-desktop.scss'
 class home extends Component {
     render() {
         return (
-            <div>
+            <div className="home-page">
                 <Navbar />
                 <section className="hero-1">
                     <div className='hero1-container'>
@@ -46,7 +46,7 @@ class home extends Component {
 
                 <section className="hero-4">
                     <img className="es8-logo" src={ES8}/>
-                    <button className='learn-more-btn'>Learn More</button>
+                    <button className='learn-more-btn' id='hero4-btn'>Learn More</button>
                 </section>
 
                 <section className="hero-5">
@@ -70,22 +70,27 @@ class home extends Component {
                         <button className='press-release-btn'>Press Release</button>
                     </div>
                 </section>
+                
 
+                <div className='footer-hero'>
+                    <section className="hero-7">
+                        <img className="nio-house-logo" src={NioHouseLogo}/>
+                        <p className='hero7-text'>A space of abundant joy and possibilities</p>
+                        <span className='left-btn-wrapper'>
+                            <button className='learn-more-btn' id='hero7-btn'>Learn More</button>
+                        </span>
+                    </section>
+                    
+                    <section className="hero-8">
+                        <img className="nio-power-logo" src={NioPowerLogo}/>
+                        <p className='hero8-text'>A holistic power service ecosystem</p>
+                        <span className='right-btn-wrapper'>
+                            <button className='learn-more-btn' id='hero8-btn'>Learn More</button>
+                        </span>
+                    </section>
+                </div>
 
-
-
-
-                <section className="hero-7">
-                    <img className="nio-house-logo" src={NioHouseLogo}/>
-                    <p className='hero7-text'>A space of abundant joy and possibilities</p>
-                    <button className='learn-more-btn' id='hero7-btn'>Learn More</button>
-                </section>
-
-                <section className="hero-8">
-                    <img className="nio-power-logo" src={NioPowerLogo}/>
-                    <p className='hero7-text'>A holistic power service ecosystem</p>
-                    <button className='learn-more-btn' id='hero7-btn'>Learn More</button>
-                </section>
+                
 
                 <footer className="footer">
                     <h4 className='copyright-text'>© NIO 2021</h4>

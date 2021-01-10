@@ -353,6 +353,10 @@
         font-size: 1.5rem;
     }
 
+    .left-btn-wrapper{
+        display: grid;
+    }
+
     #hero7-btn {
         display: flex;
         justify-self: center;
@@ -387,12 +391,31 @@
         justify-content: center; 
     }
 
+    #hero8-btn{
+        display: flex;
+        justify-self: center;
+        width: 50%;
+        margin: 10px 0px 500px 0px;
+    }
+
     .nio-power-logo {
         display: flex;
         justify-self: center;
         width: 213px;
         height: 35px;
         margin-top: 20vh;
+    }
+
+    .hero8-text {
+        text-align: center;
+        color: white;
+        margin: 10px 0px 10px 0px;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .right-btn-wrapper {
+        display: grid;
     }
 
     // ------------------------------------FOOTER------------------------------------------

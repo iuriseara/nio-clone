@@ -72,4 +72,296 @@
         background-color: white;
         color: black;
     }
+
+    //------------------------------------------HERO 2 ---------------------------------------------
+
+    .hero-2 {
+        display: inline-block;
+        background-image: url(../../img/ec6-hero-homepage-global-v1.jpg);
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        max-width: 100%;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .ec6-logo{
+        display: flex;
+        margin-left: 20%;
+        margin-top: 15%;
+        width: 320px;
+        height: 98px;
+    }
+
+    .learn-more-btn {
+        margin-top: 50px;
+        margin-left: 20%;
+        background:none;
+        border: 2px solid white;
+        padding: 10px 30px 10px 30px; 
+        font-size:0.9em;
+        color:white;  
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .learn-more-btn:hover {
+        color:black;
+        background-color: white;
+    }
+
+    // ------------------------------HERO 3------------------------------------------------
+
+    .hero-3 {
+        display: inline-block;
+        background-image: url(../../img/home-es6-pc.png);
+        background-position: top;
+        background-size: auto;
+        // background-repeat: no-repeat;
+        background-attachment: fixed;
+        max-width: 100%;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .es6-logo {
+        display: flex;
+        margin-left: 20%;
+        margin-top: 15%;
+        width: 320px;
+        height: 98px;
+    }
+
+    // ------------------------------ HER0 4 -----------------------------------------------
+
+    .hero-4 {
+        display: inline-block;
+        background-image: url(../../img/home-es8-pc.png);
+        background-position: top;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        max-width: 100%;
+        width: 100vw;
+        height: 100vh; 
+    }
+
+    .es8-logo{
+        display: flex;
+        margin-left: 60%;
+        margin-top: 15%;
+        width: 320px;
+        height: 132px;
+    }
+
+    #hero4-btn {
+        margin-left: 60%;
+    }
+
+    // ------------------------------ HER0 5 -----------------------------------------------
+
+    .hero-5 {
+        display: grid;
+        justify-content: center;
+        background-image: url(../../img/baas-lead-desktop_0.jpg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        max-width: 100%;
+        width: 100vw;
+        height: 100vh;  
+    }
+
+    .nio-hero-logo {
+        display: flex;
+        justify-self: center;
+        width: 150px;
+        height: 80px; 
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .hero-5-title {
+        margin: 0;
+        color: white;
+        font-weight: bold;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .hero-5-text {
+        margin: 0;
+        color: white;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .hero-5-text-wrapper {
+        position: relative;
+        top: 20vh;
+    }
+
+    #hero5-learn-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    //--------------------------------HERO 6----------------------------------------------
+
+    .hero-6 {
+        display: grid;
+        justify-content: center;
+        background-image: url(../../img/hero-100kwh-launch-desktop.jpg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        max-width: 100%;
+        width: 100vw;
+        height: 100vh;  
+    }
+
+    .hero6-text-wrapper{
+        position: relative;
+        top: 20vh;
+    }
+
+    .nio-hero6-logo {
+        display: flex;
+        justify-self: center;
+        width: 200px;
+        height: 100px; 
+        margin: auto;
+    }
+
+    .hero-6-title {
+       color: white; 
+       font-size: 3rem;
+       letter-spacing: 0.5rem;
+       text-align: center;
+       margin: 100px 0px 0px 8px;
+    }
+
+    .hero6-text {
+        margin: 0;
+        color: white;
+        font-weight: bold;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .hero6-date {
+        font-size: 1.2rem;
+        color: white;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+
+    .press-release-btn{ 
+        margin: auto;
+        display: grid;
+        justify-content: center;
+        background: none;
+        border: 1px solid white;
+        padding: 15px 60px 15px 60px;
+        font-size: 14px;
+        height: 50px;
+        color: white;
+    }
+
+    .hero6-bottom-wrapper{
+        display: inline-block;
+    }
+
+    .press-release-btn:hover{
+        background-color: white;
+        color: black;
+    }
+
+    //----------------------------------HER0 7--------------------------------------------
+
+    .footer-hero{
+        display: flex;
+        padding: 15px;
+    } 
+
+    .nio-house-logo{
+        display: flex;
+        margin: auto;
+        width: 213px;
+        height: 35px;
+        margin-top: 20vh;
+    }
+
+    .left-btn-wrapper {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero-7 {
+        margin: 15px;
+        background-image: url(../../img/nio-house.jpg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        max-width: 100%;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .hero7-text{
+        text-align: center;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    #hero7-btn{
+        margin:0;
+        width: 200px;
+        height: 50px;
+    }
+
+    //--------------------------------HERO 8----------------------------------------------
+
+    .hero-8{
+        margin: 15px;
+        background-image: url(../../img/nio-power.jpg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        max-width: 100%;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .nio-power-logo {
+        display: flex;
+        margin: auto;
+        width: 213px;
+        height: 35px;
+        margin-top: 20vh;
+    }
+
+    .hero8-text{
+        text-align: center;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .right-btn-wrapper{
+        display: grid;
+        place-content: center;
+    }
+
+    #hero8-btn{
+        margin:0;
+        width: 200px;
+        height: 50px;
+    }
+
 }
