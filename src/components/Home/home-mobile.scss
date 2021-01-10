@@ -3,7 +3,7 @@
 
 @media (max-width: $small-devices) {
 
-// ----------------------------HERO 2--------------------------------------
+// ----------------------------HERO 1--------------------------------------
 
     .hero-1 {
         background-image: url(../../img/nio-day-2021-countdown-mobile.png);
@@ -462,20 +462,3 @@
 
 }
 
-
-
-
-
-
-
-
-@media (min-width: $large-devices) {
-
-    .hero-1 {
-        background-image: url(../../img/nio-day-2021-countdown-desktop.png);
-        background-position: center;
-        background-attachment: fixed;
-        width: 100vw;
-        height: 100vh;
-    }
-}

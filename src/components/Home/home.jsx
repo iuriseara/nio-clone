@@ -12,7 +12,8 @@ import TwitterLogo from '../../img/icon-twitter.svg'
 import InstagramLogo from '../../img/icon-instagram.svg'
 import LinkedInLogo from '../../img/icon-linked-in.svg'
 import NioFlag from '../../img/nio-flag-icon.svg'
-import './home.scss'
+import './home-mobile.scss'
+import './home-desktop.scss'
 
 class home extends Component {
     render() {
@@ -92,10 +93,10 @@ class home extends Component {
 
                 
                     <div className='social-icons'>
-                        <a className="twitter-icon" href="#"><img src={TwitterLogo}/></a>
-                        <a className="instagram-icon" href="#"><img src={InstagramLogo}/></a>
-                        <a className="facebook-icon" href="#"><img src={FacebookLogo}/></a>
-                        <a className="linkedin-icon" href="#"><img src={LinkedInLogo}/></a>
+                        <a className="twitter-icon" href="https://twitter.com/NIOGlobal"><img src={TwitterLogo}/></a>
+                        <a className="instagram-icon" href="https://www.instagram.com/nioglobal/"><img src={InstagramLogo}/></a>
+                        <a className="facebook-icon" href="https://www.facebook.com/NIOGlobal"><img src={FacebookLogo}/></a>
+                        <a className="linkedin-icon" href="https://www.linkedin.com/company/nio%E8%94%9A%E6%9D%A5/"><img src={LinkedInLogo}/></a>
                     </div>
 
                     <div className='footer-button-wrapper'>
