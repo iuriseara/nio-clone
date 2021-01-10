@@ -6,6 +6,12 @@ import EC6 from '../../img/EC6-Logo-2020.png'
 import ES6 from '../../img/ES6-Logo.png'
 import ES8 from '../../img/es8-logo-20200825-left.png'
 import NioHouseLogo from '../../img/white-niohouse-logo.png'
+import NioPowerLogo from '../../img/white-niopower-logo.png'
+import FacebookLogo from '../../img/icon-facebook.svg'
+import TwitterLogo from '../../img/icon-twitter.svg'
+import InstagramLogo from '../../img/icon-instagram.svg'
+import LinkedInLogo from '../../img/icon-linked-in.svg'
+import NioFlag from '../../img/nio-flag-icon.svg'
 import './home.scss'
 
 class home extends Component {
@@ -73,6 +79,27 @@ class home extends Component {
                     <p className='hero7-text'>A space of abundant joy and possibilities</p>
                     <button className='learn-more-btn' id='hero7-btn'>Learn More</button>
                 </section>
+
+                <section className="hero-8">
+                    <img className="nio-power-logo" src={NioPowerLogo}/>
+                    <p className='hero7-text'>A holistic power service ecosystem</p>
+                    <button className='learn-more-btn' id='hero7-btn'>Learn More</button>
+                </section>
+
+                <footer className="footer">
+                    <h4 className='copyright-text'>© NIO 2021</h4>
+                    <p className='footer-text'>PRIVACY & LEGAL</p>
+
+                
+                    <div className='social-icons'>
+                        <a className="twitter-icon" href="#"><img src={TwitterLogo}/></a>
+                        <a className="instagram-icon" href="#"><img src={InstagramLogo}/></a>
+                        <a className="facebook-icon" href="#"><img src={FacebookLogo}/></a>
+                        <a className="linkedin-icon" href="#"><img src={LinkedInLogo}/></a>
+                    </div>
+                    
+
+                </footer>
 
 
             </div>
