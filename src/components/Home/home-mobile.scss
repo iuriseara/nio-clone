@@ -78,7 +78,7 @@
     }
 
 
-    @media (max-width: 320px) {
+    @media (max-width: $iphone5) {
         
         .live-stream-btn {
             margin-top: 50px;
@@ -132,7 +132,7 @@
         color: black;
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: $iphone5) {
         .learn-more-btn {
             text-align: center;
             vertical-align: middle;
@@ -300,7 +300,7 @@
        color: black;
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: $iphone5) {
         .press-release-btn {
             text-align: center;
             vertical-align: middle;
@@ -312,7 +312,7 @@
         }  
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: $iphone6) {
         .press-release-btn {
             text-align: center;
             vertical-align: middle;
@@ -360,14 +360,14 @@
         margin: 10px 0px 500px 0px;
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: $iphone5) {
         .hero7-text {
             margin: 15px 0px 15px 0px;
             font-size: 1.2rem;
         }
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: $iphone6) {
         .hero7-text {
             margin: 15px 0px 15px 0px;
             font-size: 1.2rem;
@@ -444,7 +444,7 @@
        margin: 5px;
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: $iphone5) {
         .footer-text {
             margin-top: 30px;
         }
@@ -454,7 +454,7 @@
         }
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: $iphone6) {
         .footer-text {
             margin-top: 30px;
         }
