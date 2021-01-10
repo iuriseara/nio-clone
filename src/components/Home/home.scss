@@ -127,6 +127,11 @@
         color:white;  
     }
 
+    .learn-more-btn:hover {
+        background-color: white;
+        color: black;
+    }
+
     @media (max-width: 320px) {
         .learn-more-btn {
             text-align: center;
@@ -138,6 +143,99 @@
             color:white;  
         }
     }
+
+    // ---------------------------- HERO 3------------------------------------
+
+    .hero-3 {
+        background-image: url(../../img/home-es6-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        justify-content: center;
+    }
+
+    .es6-logo {
+        display: flex;
+        justify-self: center;
+        width: 226px;
+        height: 67px;
+        margin-top: 33vh;
+    }
+
+
+
+    //-------------------------------HERO 4----------------------------------------
+
+    .hero-4 {
+        background-image: url(../../img/home-es8-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        justify-content: center;
+    }
+
+    .es8-logo {
+        display: flex;
+        justify-self: center;
+        width: 226px;
+        height: 87px;
+        margin-top: 30vh;
+    }
+
+
+    //-------------------------------HER0 5----------------------------------------
+
+    .hero-5 {
+        background-image: url(../../img/baas-lead-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        justify-content: center;
+    }
+
+    .hero-5-text-wrapper {
+        position: relative;
+        top: 30vh;
+    }
+
+    .nio-hero-logo {
+        display: flex;
+        justify-self: center;
+        width: 150px;
+        height: 80px; 
+        margin: auto;
+    }
+
+    .hero-5-title {
+        color:white;
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+        margin: 25px 0px 10px 0px;
+    }
+
+    .hero-5-text {
+        color: white;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 0px 0px 50px 0px;
+    }
+
+    #hero5-learn-btn {
+        width: 73vw;
+        margin-top: 0px;
+    }
+
 
 }
 
