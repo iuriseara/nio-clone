@@ -324,6 +324,56 @@
         }  
     }
 
+    //-----------------------------------HERO 7-------------------------------------------
+
+    .hero-7{
+        background-image: url(../../img/nio-house.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        justify-content: center; 
+    }
+
+    .nio-house-logo {
+        display: flex;
+        justify-self: center;
+        width: 213px;
+        height: 35px;
+        margin-top: 20vh;
+    }
+
+    .hero7-text {
+        text-align: center;
+        color: white;
+        margin: 10px 0px 10px 0px;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    #hero7-btn {
+        display: flex;
+        justify-self: center;
+        width: 50%;
+        margin: 10px 0px 500px 0px;
+    }
+
+    @media (max-width: 320px) {
+        .hero7-text {
+            margin: 15px 0px 15px 0px;
+            font-size: 1.2rem;
+        }
+    }
+
+    @media (max-width: 375px) {
+        .hero7-text {
+            margin: 15px 0px 15px 0px;
+            font-size: 1.2rem;
+        }
+    }
+
 }
 
 

@@ -5,6 +5,7 @@ import WhiteLogo from '../../img/logo-white.svg';
 import EC6 from '../../img/EC6-Logo-2020.png'
 import ES6 from '../../img/ES6-Logo.png'
 import ES8 from '../../img/es8-logo-20200825-left.png'
+import NioHouseLogo from '../../img/white-niohouse-logo.png'
 import './home.scss'
 
 class home extends Component {
@@ -62,6 +63,17 @@ class home extends Component {
                         <button className='press-release-btn'>Press Release</button>
                     </div>
                 </section>
+
+
+
+
+
+                <section className="hero-7">
+                    <img className="nio-house-logo" src={NioHouseLogo}/>
+                    <p className='hero7-text'>A space of abundant joy and possibilities</p>
+                    <button className='learn-more-btn' id='hero7-btn'>Learn More</button>
+                </section>
+
 
             </div>
         );
