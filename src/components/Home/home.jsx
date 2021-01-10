@@ -97,6 +97,13 @@ class home extends Component {
                         <a className="facebook-icon" href="#"><img src={FacebookLogo}/></a>
                         <a className="linkedin-icon" href="#"><img src={LinkedInLogo}/></a>
                     </div>
+
+                    <div className='footer-button-wrapper'>
+                        <span className='language-btn'>
+                            <span className='country-text'>EN</span>
+                            <img className="footer-flag" src={NioFlag}/>
+                        </span>
+                    </div>
                     
 
                 </footer>
