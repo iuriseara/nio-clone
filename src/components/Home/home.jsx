@@ -51,8 +51,16 @@ class home extends Component {
                 </section>
 
                 <section className="hero-6">
-                    <p>NIO 100 kWh Battery</p>
-                    <h4>Launch Event</h4>
+                    <div className='hero6-text-wrapper'>
+                        <img className="nio-hero6-logo" src={WhiteLogo}/>
+                        <p className='hero-6-title'>NIO 100 kWh Battery</p>
+                        <h4 className='hero6-text'>Launch Event</h4>
+                    </div>
+
+                    <div className='hero6-bottom-wrapper'>
+                        <p className='hero6-date'>2020.11.06 13:30 GMT+8</p>
+                        <button className='press-release-btn'>Press Release</button>
+                    </div>
                 </section>
 
             </div>

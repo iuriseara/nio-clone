@@ -237,6 +237,93 @@
     }
 
 
+    //----------------------------------HERO 6-------------------------------------
+
+    .hero-6 { 
+        background-image: url(../../img/hero-100kwh-launch-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        justify-content: center; 
+    }
+
+    .hero6-text-wrapper{
+        position: relative;
+        top: 20vh;
+    }
+
+    .nio-hero6-logo{
+        display: flex;
+        justify-self: center;
+        width: 150px;
+        height: 80px; 
+        margin: auto;
+    }
+
+    .hero-6-title {
+        color: white;
+        text-align: center;
+        font-size: 1.7rem;
+        margin: 95px 0px 5px 0px;
+    }
+
+    .hero6-text {
+        color: white;
+        text-align: center;
+        font-size: 1.7rem;
+        margin: 0;
+    }
+
+    .hero6-date {
+        color: white;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .press-release-btn {
+        display: grid;
+        justify-content: center;
+        background: none;
+        border: 1px solid white;
+        padding: 15px 30px 15px 30px;
+        font-size: 1em;
+        height: 50px;
+        width: 60vw;
+        color: white;
+    }
+
+    .press-release-btn:hover {
+       background-color: white;
+       color: black;
+    }
+
+    @media (max-width: 320px) {
+        .press-release-btn {
+            text-align: center;
+            vertical-align: middle;
+            margin-bottom: 10%;
+            display: grid;
+            height: 50px;
+            width: 80vw;
+            color:white;  
+        }  
+    }
+
+    @media (max-width: 375px) {
+        .press-release-btn {
+            text-align: center;
+            vertical-align: middle;
+            margin-bottom: 10%;
+            display: grid;
+            height: 50px;
+            width: 80vw;
+            color:white;  
+        }  
+    }
+
 }
 
 
