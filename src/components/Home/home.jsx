@@ -93,23 +93,29 @@ class home extends Component {
                 
 
                 <footer className="footer">
-                    <h4 className='copyright-text'>© NIO 2021</h4>
-                    <p className='footer-text'>PRIVACY & LEGAL</p>
-
+                  <span className='left-footer-wrapper'>
+                        <h4 className='copyright-text'>© NIO 2021</h4>
+                        <p className='footer-text'>PRIVACY & LEGAL</p>
+                      
+                  </span>
                 
-                    <div className='social-icons'>
-                        <a className="twitter-icon" href="https://twitter.com/NIOGlobal"><img src={TwitterLogo}/></a>
-                        <a className="instagram-icon" href="https://www.instagram.com/nioglobal/"><img src={InstagramLogo}/></a>
-                        <a className="facebook-icon" href="https://www.facebook.com/NIOGlobal"><img src={FacebookLogo}/></a>
-                        <a className="linkedin-icon" href="https://www.linkedin.com/company/nio%E8%94%9A%E6%9D%A5/"><img src={LinkedInLogo}/></a>
-                    </div>
+                    <span className='right-footer-wrapper'>
+                        <div className='social-icons'>
+                            <a className="twitter-icon" href="https://twitter.com/NIOGlobal"><img src={TwitterLogo}/></a>
+                            <a className="instagram-icon" href="https://www.instagram.com/nioglobal/"><img src={InstagramLogo}/></a>
+                            <a className="facebook-icon" href="https://www.facebook.com/NIOGlobal"><img src={FacebookLogo}/></a>
+                            <a className="linkedin-icon" href="https://www.linkedin.com/company/nio%E8%94%9A%E6%9D%A5/"><img src={LinkedInLogo}/></a>
+                        </div>
 
-                    <div className='footer-button-wrapper'>
-                        <span className='language-btn'>
-                            <span className='country-text'>EN</span>
-                            <img className="footer-flag" src={NioFlag}/>
-                        </span>
-                    </div>
+                        
+                        
+                        <div className='footer-button-wrapper'>
+                            <span className='language-btn'>
+                                <span className='country-text'>EN</span>
+                                <img className="footer-flag" src={NioFlag}/>
+                            </span>
+                        </div>
+                    </span>
                     
 
                 </footer>

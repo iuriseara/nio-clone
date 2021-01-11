@@ -120,7 +120,7 @@
         background-position: top;
         background-size: auto;
         // background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
         max-width: 100%;
         width: 100vw;
         height: 100vh;
@@ -140,12 +140,12 @@
         display: inline-block;
         background-image: url(../../img/home-es8-pc.png);
         background-position: top;
-        background-size: auto;
+        background-size: cover;
         background-repeat: no-repeat;
         background-attachment: scroll;
         max-width: 100%;
         width: 100vw;
-        height: 100vh; 
+        height: 100vh;
     }
 
     .es8-logo{
@@ -363,5 +363,58 @@
         width: 200px;
         height: 50px;
     }
+
+    //-----------------------------------FOOTER----------------------------------------------
+
+    .footer {
+        display: flex;
+        width: 100%;
+        height: 5vh;
+    }
+
+    .footer-text {
+        display: flex;
+        align-content: center;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        margin: 0;
+    }
+
+    .copyright-text{
+        margin: 0px 15px 0px 25px;
+    }
+
+    .left-footer-wrapper{
+        display: flex;
+        width: 50vw;
+    }
+
+    .right-footer-wrapper{
+        display: flex;
+        width: 50vw;
+    }
+
+    .social-icons {
+        padding-left: 72%;
+    }
+
+    .twitter-icon, .instagram-icon, .facebook-icon, .linkedin-icon{
+        margin-right: 10px;
+    }
+
+    .language-btn{
+        display: flex;
+        align-items: center;
+        border-left: 2px solid lightgrey;
+        padding-left: 10px;
+        padding-top: 3px;
+        height: 20px;
+        margin-left: 15%;
+    }
+
+    .country-text{
+        margin: 0px 10px 0px 10px;
+    }
+
 
 }

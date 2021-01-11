@@ -374,7 +374,7 @@
     @media (max-width: $iphone6) {
         .hero7-text {
             margin: 15px 0px 15px 0px;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
         }
     }
 
@@ -418,10 +418,16 @@
         display: grid;
     }
 
+    @media (max-width: $iphone6) {
+        .hero8-text {
+            font-size: 1.2rem;
+        }
+    }
+
     // ------------------------------------FOOTER------------------------------------------
 
     .footer {
-        display: grid;
+        // display: grid;
         width: 100%;
         height: 30vh;
         background-color: white
@@ -461,6 +467,7 @@
     .social-icons {
         display: flex;
         justify-content: center;
+        margin: 45px;
     }
 
     .twitter-icon, .instagram-icon, .facebook-icon, .linkedin-icon {
