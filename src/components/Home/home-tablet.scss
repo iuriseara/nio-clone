@@ -2,14 +2,13 @@
 
 
 
-@media only screen and (min-width: $large-devices) {
-
-    //--------------------------------HERO 1------------------------------------------
+@media only screen and (min-width: $medium-devices) {
 
     .home-page {
         overflow: hidden;
     }
 
+    
     .hero-1 {
         display: flex;
         background-image: url(../../img/nio-day-2021-countdown-desktop.png);
@@ -26,7 +25,7 @@
     }
 
     .hero-logo {
-        margin-top: 5% !important;
+        margin-top: 5%;
         display: flex;
         justify-self: center;
         align-self: center;
@@ -51,7 +50,7 @@
 
     .hero-1-text {
         margin: 0px;
-        font-size: 3rem !important;
+        font-size: 2rem;
         letter-spacing: 1rem;
     }
 
@@ -77,7 +76,8 @@
         color: black;
     }
 
-    //------------------------------------------HERO 2 ---------------------------------------------
+
+//     //------------------------------------------HERO 2 ---------------------------------------------
 
     .hero-2 {
         display: inline-block;
@@ -118,6 +118,7 @@
 
     // ------------------------------HERO 3------------------------------------------------
 
+
     .hero-3 {
         display: inline-block;
         background-image: url(../../img/home-es6-pc.png);
@@ -141,27 +142,27 @@
     // ------------------------------ HER0 4 -----------------------------------------------
 
     .hero-4 {
-        display: inline-block !important;
+        display: inline-block;
         background-image: url(../../img/home-es8-pc.png);
-        background-position: top !important;
-        background-size: cover !important;
-        background-repeat: no-repeat !important;
-        background-attachment: scroll !important;
-        max-width: 100% !important;
-        width: 100vw !important;
-        height: 100vh !important;
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        max-width: 100%;
+        width: 100vw;
+        height: 100vh;
     }
 
     .es8-logo{
-        display: flex !important;
-        margin-left: 60% !important;
-        margin-top: 15% !important;
-        width: 320px !important;
-        height: 132px !important;
+        display: flex;
+        margin-left: 60%;
+        margin-top: 15%;
+        width: 320px;
+        height: 132px;
     }
 
     #hero4-btn {
-        margin-left: 60% !important;
+        margin-left: 60%;
     }
 
     // ------------------------------ HER0 5 -----------------------------------------------
@@ -285,62 +286,60 @@
         color: black;
     }
 
-    //----------------------------------HER0 7--------------------------------------------
+    // -------------------------------- HERO 7 ---------------------------------------------
 
-    .footer-hero{
-        display: flex !important;
-        padding: 15px;
-    } 
-
-    .nio-house-logo{
-        display: flex;
-        margin: auto;
-        width: 213px;
-        height: 35px;
-        margin-top: 20vh;
-    }
-
-    .left-btn-wrapper {
-        display: grid;
-        place-content: center;
-    }
-
-    .hero-7 {
-        margin: 15px;
-        background-image: url(../../img/nio-house.jpg) !important;
-        background-position: top !important;
-        background-size: cover !important;
-        background-repeat: no-repeat !important;
-        background-attachment: scroll !important;
-        max-width: 100% !important;
-        width: 100vw !important;
-        height: 100vh !important;
-    }
-
-    .hero7-text{
-        text-align: center;
-        color: white;
-        font-size: 1.5rem;
-    }
-
-    #hero7-btn{
-        margin:0;
-        width: 200px;
-        height: 50px;
-    }
+       
+        .footer-hero{
+            display: flex !important;
+        } 
+    
+        .nio-house-logo{
+            display: flex;
+            margin: auto;
+            width: 213px;
+            height: 35px;
+            margin-top: 20vh;
+        }
+    
+        .left-btn-wrapper {
+            display: grid;
+            place-content: center;
+        }
+    
+        .hero-7 {
+            background-image: url(../../img/nio-house.jpg);
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            max-width: 100%;
+            width: 100vw;
+            height: 60vh;
+        }
+    
+        .hero7-text{
+            text-align: center;
+            color: white;
+            font-size: 1.5rem;
+        }
+    
+        #hero7-btn{
+            margin:0;
+            width: 200px;
+            height: 50px;
+        }
 
     //--------------------------------HERO 8----------------------------------------------
 
     .hero-8{
-        margin: 15px;
         background-image: url(../../img/nio-power.jpg);
-        background-position: top !important;
-        background-size: cover !important;
-        background-repeat: no-repeat !important;
-        background-attachment: scroll !important;
-        max-width: 100% !important;
-        width: 100vw !important;
-        height: 100vh !important;
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        max-width: 100%;
+        width: 100vw;
+        height: 60vh;
     }
 
     .nio-power-logo {
@@ -368,84 +367,64 @@
         height: 50px;
     }
 
-    //-----------------------------------FOOTER----------------------------------------------
+    // -------------------------------------FOOTER----------------------------------------------------
 
     .footer {
-        display: flex !important;
-        width: 100% !important;
-        height: 5vh !important;
+        // display: grid;
+        width: 100%;
+        height: 30vh;
+        background-color: white
+    }
+
+    .copyright-text {
+        display: none;
+    }
+
+    .language-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 90px;
+        border: 1px solid lightgray;
+        height: 40px;
+    }   
+    
+    .footer-button-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .country-text {
+        margin-right: 10px;
     }
 
     .footer-text {
-        display: flex !important;
-        align-content: center !important;
-        font-size: 1rem !important;
-        letter-spacing: 1px !important;
-        margin: 0 !important;
-    }
-
-    .copyright-text{
-        display: inline !important;
-        margin: 0px 15px 0px 25px !important;
-    }
-
-    .left-footer-wrapper{
-        display: flex !important;
-        width: 50vw !important;
-    }
-
-    .right-footer-wrapper{
-        display: flex !important;
-        width: 50vw !important;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 14.5px;
+        margin-top: 50px;
     }
 
     .social-icons {
-        display: block !important;
-        margin: 0px !important;
-        padding-left: 70% !important;
+        display: flex;
+        justify-content: center;
+        margin: 45px;
     }
 
-    .twitter-icon, .instagram-icon, .facebook-icon, .linkedin-icon{
-        margin-right: 10px !important;
+    .twitter-icon, .instagram-icon, .facebook-icon, .linkedin-icon {
+       margin: 5px;
     }
-
-    .language-btn{
-        display: flex !important;
-        align-items: center !important;
-        border-left: 2px solid lightgrey !important;
-        padding-left: 10px !important;
-        padding-top: 3px !important;
-        height: 20px !important;
-        margin-left: 15% !important;
-    }
-
-    .country-text{
-        margin: 0px 10px 0px 10px !important;
-    }
-
-    @media (max-width: 1600px) {
-        .social-icons {
-            padding-left: 60% !important;
-        }
-    }
-
-    @media (max-width: 1300px) {
-        .social-icons {
-            padding-left: 55% !important;
-        }
-    }
-
-    @media (max-width: 1200px) {
-        .social-icons {
-            padding-left: 50% !important;
-        }
-    }
-
-    @media (max-width: 1030px) {
-        .social-icons {
-            padding-left: 40% !important;
-        }
-    }
-
 
 }
+
+
+
+
+
+
+
+
+
+

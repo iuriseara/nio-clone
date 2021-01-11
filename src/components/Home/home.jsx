@@ -12,8 +12,10 @@ import TwitterLogo from '../../img/icon-twitter.svg'
 import InstagramLogo from '../../img/icon-instagram.svg'
 import LinkedInLogo from '../../img/icon-linked-in.svg'
 import NioFlag from '../../img/nio-flag-icon.svg'
-import './home-mobile.scss'
 import './home-desktop.scss'
+import './home-tablet.scss'
+import './home-small-tablet.scss'
+import './home-mobile.scss'
 
 class home extends Component {
     render() {
@@ -107,7 +109,7 @@ class home extends Component {
                             <a className="linkedin-icon" href="https://www.linkedin.com/company/nio%E8%94%9A%E6%9D%A5/"><img src={LinkedInLogo}/></a>
                         </div>
 
-                        
+
                         
                         <div className='footer-button-wrapper'>
                             <span className='language-btn'>

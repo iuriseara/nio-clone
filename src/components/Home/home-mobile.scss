@@ -1,9 +1,14 @@
 @import '../../scss/variables.scss';
 
 
-@media (max-width: $small-devices) {
+@media only screen and (max-width: $small-devices) {
 
 // ----------------------------HERO 1--------------------------------------
+
+    .home-page {
+        overflow: hidden;
+    }
+
 
     .hero-1 {
         background-image: url(../../img/nio-day-2021-countdown-mobile.png);
