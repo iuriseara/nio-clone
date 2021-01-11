@@ -416,5 +416,20 @@
         margin: 0px 10px 0px 10px;
     }
 
+    @media (max-width: 1600px) {
+        .social-icons {
+            padding-left: 65%;
+        }
+    }
+
+    @media (max-width: 1300px) {
+        .social-icons {
+            padding-left: 55%;
+        }
+    }
+
+
+    
+
 
 }

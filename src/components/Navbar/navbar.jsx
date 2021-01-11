@@ -40,22 +40,22 @@ class navbar extends Component {
                         <img className="menu-logo-desktop" src={DesktopLogo} width="90px" height="50px"/>
                     <ul>
                         <span className="nav-container-mobile" style={{display: this.state.display}}>
-                            <li className="nav-item"><a href="#">EC6</a></li>
-                            <li className="nav-item"><a href="#">ES8</a></li>
-                            <li className="nav-item"><a href="#">ES6</a></li>
-                            <li className="nav-item"><a href="#">Services</a></li>
-                            <li className="nav-item"><a href="#">NIO Life</a></li>
-                            <li className="nav-item"><a href="#">About</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#">EC6</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#">ES8</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#">ES6</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#">Services</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#">NIO Life</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#">About</a></li>
                             {/* <li className="nav-item"><img src={}</li> */}
                         </span>
                         
                         <span className="nav-container-desktop">
-                            <li className="nav-item"><a href="#">EC6</a></li>
-                            <li className="nav-item"><a href="#">ES8</a></li>
-                            <li className="nav-item"><a href="#">ES6</a></li>
-                            <li className="nav-item"><a href="#">Services</a></li>
-                            <li className="nav-item"><a href="#">NIO Life</a></li>
-                            <li className="nav-item"><a href="#">About</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#">EC6</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#">ES8</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#">ES6</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#">Services</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#">NIO Life</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#">About NIO</a></li>
                         </span>
 
 
