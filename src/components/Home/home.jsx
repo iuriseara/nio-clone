@@ -45,11 +45,6 @@ class home extends Component {
     }
     
 
-
-
-    
-
-
     render() {
         return (
             <div className="home-page">
@@ -161,3 +156,7 @@ class home extends Component {
 }
 
 export default home;
+
+
+
+//--------------------------IURI SEARA 2021--------------------------------------
