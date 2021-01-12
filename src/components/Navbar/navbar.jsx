@@ -40,22 +40,22 @@ class navbar extends Component {
                         <img className="menu-logo-desktop" src={DesktopLogo} width="90px" height="50px"/>
                     <ul>
                         <span className="nav-container-mobile" style={{display: this.state.display}}>
-                            <li className="nav-item"><a className="nav-link" href="#">EC6</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#">ES8</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#">ES6</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#">Services</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#">NIO Life</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#">About</a></li>
+                            <li className="nav-item"><a className="nav-link" href="https://www.nio.com/ec6">EC6</a></li>
+                            <li className="nav-item"><a className="nav-link" href="https://www.nio.com/es8">ES8</a></li>
+                            <li className="nav-item"><a className="nav-link" href="https://www.nio.com/es6">ES6</a></li>
+                            <li className="nav-item"><a className="nav-link" href="https://www.nio.com/nio-service">Services</a></li>
+                            <li className="nav-item"><a className="nav-link" href="https://www.nio.com/nio-life">NIO Life</a></li>
+                            <li className="nav-item"><a className="nav-link" href="https://www.nio.com/about">About</a></li>
                             {/* <li className="nav-item"><img src={}</li> */}
                         </span>
                         
                         <span className="nav-container-desktop">
-                            <li className="nav-item"><a className="nav-link" href="#">EC6</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#">ES8</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#">ES6</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#">Services</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#">NIO Life</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#">About NIO</a></li>
+                            <li className="nav-item"><a className="nav-link" href="https://www.nio.com/ec6">EC6</a></li>
+                            <li className="nav-item"><a className="nav-link" href="https://www.nio.com/es8">ES8</a></li>
+                            <li className="nav-item"><a className="nav-link" href="https://www.nio.com/es6">ES6</a></li>
+                            <li className="nav-item"><a className="nav-link" href="https://www.nio.com/nio-service">Services</a></li>
+                            <li className="nav-item"><a className="nav-link" href="https://www.nio.com/nio-life">NIO Life</a></li>
+                            <li className="nav-item"><a className="nav-link" href="https://www.nio.com/about">About NIO</a></li>
                         </span>
 
 

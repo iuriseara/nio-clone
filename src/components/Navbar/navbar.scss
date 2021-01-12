@@ -1,4 +1,5 @@
 @import '../../scss/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
 
 
 // ------------ MOBILE -------------------
@@ -8,6 +9,8 @@
     .nav-item > a {
         text-decoration: none;
         color: black;
+        font-family: 'Montserrat', sans-serif;
+        cursor: default;
     }
 
     .nav-item {
@@ -46,6 +49,7 @@
         width: 100vw;
         height: 3rem;
         background-color: white;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .nav-content {
@@ -55,6 +59,10 @@
 
     .nav-item {
         z-index: 25;
+    }
+
+    .nav-item:hover {
+        text-decoration: underline;
     }
 
 
@@ -141,6 +149,11 @@
         z-index: 25;
     }
 
+    .nav-item:hover {
+        text-decoration: underline;
+    }
+
+
 
     .nav-container-mobile {
         position: fixed;
@@ -187,6 +200,11 @@
     .nav-item {
         display: inline;
     }
+
+    .nav-item:hover {
+        text-decoration: none !important;
+    }
+
 
     .nav-link {
         position: relative;
