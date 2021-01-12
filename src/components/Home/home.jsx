@@ -18,6 +18,38 @@ import './home-small-tablet.scss'
 import './home-mobile.scss'
 
 class home extends Component {
+
+
+    baasBtn = () => {
+        return window.open("https://www.nio.com/baas")
+    }
+
+    nioDayBtn = () => {
+        return window.open("https://youtu.be/nMpncul1P4s")
+    }
+
+    ec6Btn = () => {
+        return window.open("https://www.nio.com/ec6")
+    }
+
+    es6Btn = () => {
+        return window.open("https://www.nio.com/es6")
+    }
+    
+    es8Btn = () => {
+        return window.open("https://www.nio.com/es8")
+    }
+
+    launchEvent = () => {
+        return window.open("https://www.nio.com/news/nio-launches-100-kwh-battery-flexible-battery-upgrade-plans")
+    }
+    
+
+
+
+    
+
+
     render() {
         return (
             <div className="home-page">
@@ -30,7 +62,7 @@ class home extends Component {
                        <div className='hero-1-text-wrapper'>
                             <p className='hero-1-date'>2021.01.09 18:30 GMT + 8</p>
                             <p className='hero-1-location'>Chengdu China</p>
-                            <button className='live-stream-btn'>Watch Replay</button>
+                            <button className='live-stream-btn' onClick={this.nioDayBtn}>Watch Replay</button>
                        </div>
 
                     </div>
@@ -38,17 +70,17 @@ class home extends Component {
 
                 <section className="hero-2">
                     <img className="ec6-logo" src={EC6}/>
-                    <button className='learn-more-btn'>Learn More</button>
+                    <button className='learn-more-btn' onClick={this.ec6Btn}>Learn More</button>
                 </section>
 
                 <section className="hero-3">
                     <img className="es6-logo" src={ES6}/>
-                    <button className='learn-more-btn'>Learn More</button>
+                    <button className='learn-more-btn' onClick={this.es6Btn}>Learn More</button>
                 </section>
 
                 <section className="hero-4">
                     <img className="es8-logo" src={ES8}/>
-                    <button className='learn-more-btn' id='hero4-btn'>Learn More</button>
+                    <button className='learn-more-btn' id='hero4-btn' onClick={this.es8Btn}>Learn More</button>
                 </section>
 
                 <section className="hero-5">
@@ -56,7 +88,7 @@ class home extends Component {
                         <img className="nio-hero-logo" src={WhiteLogo}/>
                         <h4 className='hero-5-title'>NIO BaaS</h4>
                         <p className='hero-5-text'>Battery as a Service</p>
-                        <button className='learn-more-btn' id='hero5-learn-btn'>Learn More</button>
+                        <button className='learn-more-btn' id='hero5-learn-btn' onClick={this.baasBtn}>Learn More</button>
                     </div>
                 </section>
 
@@ -69,7 +101,7 @@ class home extends Component {
 
                     <div className='hero6-bottom-wrapper'>
                         <p className='hero6-date'>2020.11.06 13:30 GMT+8</p>
-                        <button className='press-release-btn'>Press Release</button>
+                        <button className='press-release-btn' onClick={this.launchEvent}>Press Release</button>
                     </div>
                 </section>
                 
