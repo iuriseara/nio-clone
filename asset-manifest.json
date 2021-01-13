@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/nio-clone/static/css/main.9ff80730.chunk.css",
+    "main.js": "/nio-clone/static/js/main.9a4cb885.chunk.js",
+    "main.js.map": "/nio-clone/static/js/main.9a4cb885.chunk.js.map",
+    "runtime-main.js": "/nio-clone/static/js/runtime-main.bb755b41.js",
+    "runtime-main.js.map": "/nio-clone/static/js/runtime-main.bb755b41.js.map",
+    "static/js/2.3f8c6d8b.chunk.js": "/nio-clone/static/js/2.3f8c6d8b.chunk.js",
+    "static/js/2.3f8c6d8b.chunk.js.map": "/nio-clone/static/js/2.3f8c6d8b.chunk.js.map",
+    "static/js/3.fd47de10.chunk.js": "/nio-clone/static/js/3.fd47de10.chunk.js",
+    "static/js/3.fd47de10.chunk.js.map": "/nio-clone/static/js/3.fd47de10.chunk.js.map",
+    "index.html": "/nio-clone/index.html",
+    "static/css/main.9ff80730.chunk.css.map": "/nio-clone/static/css/main.9ff80730.chunk.css.map",
+    "static/js/2.3f8c6d8b.chunk.js.LICENSE.txt": "/nio-clone/static/js/2.3f8c6d8b.chunk.js.LICENSE.txt",
+    "static/media/EC6-Logo-2020.88f945fc.png": "/nio-clone/static/media/EC6-Logo-2020.88f945fc.png",
+    "static/media/ES6-Logo.88360e19.png": "/nio-clone/static/media/ES6-Logo.88360e19.png",
+    "static/media/home-small-tablet.scss": "/nio-clone/static/media/nio-day-2021-countdown-desktop.7c49f291.png",
+    "static/media/home-mobile.scss": "/nio-clone/static/media/nio-power.aa9097fe.jpg",
+    "static/media/es8-logo-20200825-left.1955e43b.png": "/nio-clone/static/media/es8-logo-20200825-left.1955e43b.png",
+    "static/media/icon-facebook.3f3247dd.svg": "/nio-clone/static/media/icon-facebook.3f3247dd.svg",
+    "static/media/icon-instagram.f0b1155c.svg": "/nio-clone/static/media/icon-instagram.f0b1155c.svg",
+    "static/media/icon-linked-in.d88a4d8e.svg": "/nio-clone/static/media/icon-linked-in.d88a4d8e.svg",
+    "static/media/icon-twitter.a7e4ca48.svg": "/nio-clone/static/media/icon-twitter.a7e4ca48.svg",
+    "static/media/logo-black.4bd90fd4.svg": "/nio-clone/static/media/logo-black.4bd90fd4.svg",
+    "static/media/logo-white.5e8f5210.svg": "/nio-clone/static/media/logo-white.5e8f5210.svg",
+    "static/media/menu-icon.78529502.svg": "/nio-clone/static/media/menu-icon.78529502.svg",
+    "static/media/menu-logo.54d8da9e.svg": "/nio-clone/static/media/menu-logo.54d8da9e.svg",
+    "static/media/nio-flag-icon.b825a579.svg": "/nio-clone/static/media/nio-flag-icon.b825a579.svg",
+    "static/media/white-niohouse-logo.06c3d08f.png": "/nio-clone/static/media/white-niohouse-logo.06c3d08f.png",
+    "static/media/white-niopower-logo.b9852a85.png": "/nio-clone/static/media/white-niopower-logo.b9852a85.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb755b41.js",
+    "static/js/2.3f8c6d8b.chunk.js",
+    "static/css/main.9ff80730.chunk.css",
+    "static/js/main.9a4cb885.chunk.js"
+  ]
+}
